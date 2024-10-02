@@ -9,10 +9,10 @@ public enum MenuItem {
     COFFEE(MenuType.DRINK, 3.99, "Freshly brewed coffee", Size.SMALL),
     SODA(MenuType.DRINK, 2.99, "Sparkling soda with ice", Size.MEDIUM);
 
-    private MenuType type;
-    private double price;
-    private String description;
-    private Size size;
+    private final MenuType type;
+    private final double price;
+    private final String description;
+    private final Size size;
 
     // 非饮料
     MenuItem(MenuType type, double price, String description) {
