@@ -19,4 +19,3 @@ public enum Gender {
 // 并不能通过手动继承 Enum 来构造自定义的枚举类，必须使用 enum 关键字。
 // 枚举常量是静态的最终实例，所以 Gender.MALE 这种写法不仅合理，而且是标准的写法，
 // 因为枚举常量在 Java 中是通过 public static final 实现的。
-
