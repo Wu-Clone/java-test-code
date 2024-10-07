@@ -11,5 +11,13 @@ public class Main {
 
         System.out.println(stringGenericTest.getClass() == integerGenericTest.getClass());
 
+        System.out.println("---------------------------------");
+        System.out.println("测试使用泛型方法");
+        System.out.println(method("这次是字符串"));
+        System.out.println(method(123));
+    }
+
+    public static <T> T method(T t){
+        return t;
     }
 }
